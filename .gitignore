@@ -1,5 +1,6 @@
-# Pi 会话导出（含完整对话记录，可能夹带内部信息，不入库）
+# Pi 会话导出：默认忽略，仅 sessions/ 下的归档可入库
 pi-session-*.html
+!sessions/pi-session-*.html
 
 # 本地环境/密钥
 .env
@@ -11,3 +12,7 @@ pi-session-*.html
 *.qdrep
 *.sqlite
 *.log.tmp
+
+# 会话/日志中可能夹带公司内部资料的原始抓包
+*.pcap
+*.cap

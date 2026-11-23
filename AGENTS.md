@@ -38,8 +38,11 @@ Pi 在本目录及子目录运行时自动加载本文件；修改后执行 `/re
 docs/            # 分阶段学习笔记，01-xx 02-xx 编号
 labs/            # 每个实验一个目录：脚本、配置、结果数据
 assets/          # 图片、日志、profiling 输出
+sessions/        # Pi 会话导出归档（.html），便于公司侧回看对话过程
 AGENTS.md
 ```
+
+- `sessions/` 下只放已脱敏的会话导出；`.gitignore` 默认忽略 `pi-session-*.html`，仅放行 `sessions/` 目录内的文件。
 
 每个实验记录使用固定结构：
 
