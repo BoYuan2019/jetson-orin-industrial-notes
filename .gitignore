@@ -1,0 +1,13 @@
+# Pi 会话导出（含完整对话记录，可能夹带内部信息，不入库）
+pi-session-*.html
+
+# 本地环境/密钥
+.env
+*.key
+*.pem
+
+# 设备日志与体积大的 profiling 输出
+*.nsys-rep
+*.qdrep
+*.sqlite
+*.log.tmp
